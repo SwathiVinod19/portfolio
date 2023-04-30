@@ -1,0 +1,17 @@
+header{
+
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+    background-image:url(../Images/light-wood.jpg);
+    margin-bottom: 0;
+  }
+  nav{
+      margin-top: 0;
+      background-image:url(../Images/light-wood.jpg);
+      display: flex;
+      justify-content:space-evenly;
+      flex-wrap: wrap;
+  }
