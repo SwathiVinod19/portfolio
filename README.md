@@ -33,8 +33,9 @@ programming
 ● MERN Stack
 ● Computer science fundamentals
 
-#### Here the link to my github 
+#### Here the link to my github and the portfolio 
 [Github](https://github.com/SwathiVinod19)
+https://swathivinod19.github.io/portfolio/#work
 
 
 ##### Acknowledgements
