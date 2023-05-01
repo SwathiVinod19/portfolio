@@ -37,3 +37,5 @@ programming
 [Github](https://github.com/SwathiVinod19)
 
 
+##### Acknowledgements
+I'm new to web development altogether and I was a little confused about how flex works in css.. and I used the tutoring services along with Youtube videos to understand the basics of flex. I would like to thank my tutor Rene Trevino for exploring concepts of flex, looking at my html and css code.. and sharing helpful videos :) Grateful for the help and happy to be learning everyday ! 
