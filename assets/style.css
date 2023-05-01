@@ -10,7 +10,7 @@ header{
   }
   nav{
       margin-top: 0;
-      background-image:url(../Images/light-wood.jpg);
+      background-image:url(../images/light-wood.jpg);
       display: flex;
       justify-content:space-evenly;
       flex-wrap: wrap;
