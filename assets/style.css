@@ -67,7 +67,6 @@ h1{
  }
  #work{
 
-    background-size: contain;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -186,3 +185,67 @@ h1{
     flex-direction: column;
     margin-top: 5rem;
 }
+
+#work-two{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .projects-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 75%;
+    background-image: url(../Images/red-brick.jpg);
+    background-size: contain;
+  }
+  .projects-two .hover-two{
+    display: none;
+ }
+ .projects-two:hover .hover-two{
+    display: contents;
+ }
+ .copy-one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:left;
+    color: black;
+    position:relative; 
+ }
+ .copy-one-image{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+ }
+ .copy-one-content{
+    margin-top: 2rem;
+    color:beige;
+    font-size: 2rem;
+ }
+ .side-bar-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../Images/red-brick.jpg);
+    background-size: contain;
+  }
+  .platforms{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+  
