@@ -248,4 +248,176 @@ h1{
     align-items: flex-end;
     align-content: flex-end;
   }
+
+  footer{
+    margin-top: 0;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   }
+
+
+   @media screen and (min-width:1001px){
+    footer{
+       background-image: url(../images/light-wood.jpg);
+    }
+  }
+ 
+ 
+  @media screen and (max-width: 1000px) {
+    header, nav, footer {
+      background-image: url(../images/white-brick-wall.avif);
+    }
+    h1{
+       color: rgb(234, 42, 42);
+    }
+    h2{
+       color:blueviolet;
+    }
+    #about-me{
+       background-color:rgb(250, 181, 192);
+    }
+    .image-me{
+       padding-left: 0;
+    }
+    h3{
+       color: rgb(130, 10, 10);
+    }
+    .projects {
+       background-image: url(../images/coloured-wood-one.jpg);
+    
+    } 
+    .side-bar{
+       background-image: url(../images/coloured-wood-one.jpg);
+    }
+    .projects-two{
+       background-image: url(../images/coloured-wood-one.jpg);
+    }
+    .proj-two-image{
+       padding-left:0;
+ 
+    }
+    .side-bar-two{
+       background-image: url(../images/coloured-wood-one.jpg);
+    }
+    .platforms{
+       display: flex;
+       justify-content: flex-start;
+       margin-left:0;
+    }
+  }
+ 
+  @media screen and (max-width: 500px) {
+    header, nav, footer {
+      background-image: url(../images/light-leaf.jpg);
+    }
+    h1,h2{
+       color: rgb(243, 32, 32);
+    }
+    #about-me{
+       background-color: beige;
+       width:100%;
+    }
+    h3{
+       color: yellow
+ 
+       
+    }
+    #work {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       align-content: flex-start;
+       flex-wrap: wrap;
+    
+    } 
+    p1{
+        color:rgb(194, 29, 29);
+    }
+    .projects .hover{
+       display: contents;
+ 
+    }
+    .proj-one-image{
+       max-width: 10rem;
+       max-height: 10rem;
+    }
+    .proj-two-image{
+       max-width: 10rem;
+       max-height: 10rem;
+    }
+    .projects{
+      
+       width: 100%;
+       height: auto;
+       background-image: url(../images/dark-wood.jpeg);
+       background-size: contain;
+ 
+    }
+    .side-bar{
+       background-image: url(../images/dark-wood.jpeg);
+ 
+    }
+    
+    .proj-one{
+       background-image: url(../images/light-leaf.jpg);
+       background-size: contain;
+    }
+    .proj-two{
+       background-image: url(../images/light-leaf.jpg);
+       background-size: contain;
+       width:100%;
+       display:flex;
+       justify-content: center;
+       padding-left: 0;
+       margin:0;
+ 
+    }
+    .proj-three{
+       background-image: url(../images/light-leaf.jpg);
+       background-size: contain;
+       margin-top: 0;
+ 
+    }
+    .side-bar{
+       min-width: 100%;
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+    }
+    .projects-two .hover-two{
+        display: contents;
+     }
+     .projects-two{
+      
+        width: 100%;
+        height: auto;
+        background-image: url(../images/dark-wood.jpeg);
+        background-size: contain;
+     }
+
+   .copy-one{
+    background-image: url(../images/light-leaf.jpg);
+    background-size: contain;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding-left: 0;
+    margin:0;
+   
+    }
+    .copy-one-image{
+        max-width: 10rem;
+        max-height: 10rem;
+
+    }
+    .side-bar-two{
+        min-width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+     }
+     .side-bar-two{
+        background-image: url(../images/dark-wood.jpeg);
   
+     }
+ 
+  }
