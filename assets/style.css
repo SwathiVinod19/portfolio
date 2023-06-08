@@ -5,7 +5,7 @@ header{
     flex-wrap: wrap;
     justify-content: left;
     text-align: center;
-    background-image:url(../Images/light-wood.jpg);
+    background-image:url(../images/red-brick.jpg);
     margin-bottom: 0;
   }
   nav{
@@ -164,7 +164,7 @@ h1{
  
  }
  .proj-three-content{
-    margin-top: 2rem;
+    margin: 0.5rem;
     color:beige;
     font-size: 2rem;
  }
